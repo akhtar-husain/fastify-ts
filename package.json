@@ -6,8 +6,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node ./build/index.js",
-    "dev": "nodemon index.ts",
-    "dev2": "nodemon --watch './**/*.ts' --ignore './**/*.spec.ts' --exec 'npx ts-node' ./index.ts"
+    "dev": "nodemon index.ts"
   },
   "keywords": [],
   "author": "",
